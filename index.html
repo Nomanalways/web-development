@@ -10,9 +10,9 @@
     <header>
         <nav>
             <h3 class="nav-title">Noman</h3>
-            <ul>
-                <li><a href=""><button class="btn btn-primary">Download Resume</button></a></li>
-            </ul>
+                <ul>
+                    <li class="btn2"><a href=".btn-primary"></a><button class="btn btn-primary">Download Resume</button></li>
+                </ul>
         </nav>
     </header>
     <section id="hero">
@@ -22,7 +22,9 @@
               </div>
             <h1 class="h1-style">"In the near future, I hope to become a Developer."</h1>
                 <p class="p-style">I am a web-developer. This is my first project and first assignment</p>
-               <div class="btn-text"> <button class="btn-style">Call with me</button></div>
+               <div class="btn-text"> 
+                <button class="btn-style"><a class="anchor" href="#logo">Call with me</a></button>
+            </div>
             </div>
     </section>
     <section class="hero2">
@@ -138,7 +140,7 @@
                     </label>
                     <label for="paragraph">I want support in web-development,please support me</label><br>
                     <input class="login-box" type="text" placeholder="support me any feedback me" >
-                    <input class="submit" type="submit">
+                    <input id="submit" type="submit">
 
                 </div>
             </section>
@@ -147,10 +149,10 @@
     <footer>
         <div class="foot-style">
             <h4>An open commitment by Abdulllah Al Noman</h4>
-            <div class="logo">
-                <img src="/image/facebook.png" alt="">
-                <img src="/image/linkedin-icon 1.png" alt="">
-                <img src="/image/github.png" alt="">
+            <div id="logo">
+                <a href=""><img src="image/facebook.png" alt=""></a>
+                <a href=""><img src="image/linkedin-icon 1.png" alt=""></a>
+                <a href=""><img src="image/github.png" alt=""></a>
             </div>
         </div>
     </footer>
